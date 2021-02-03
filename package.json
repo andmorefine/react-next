@@ -1,32 +1,15 @@
 {
   "name": "react-next",
-  "version": "1.0.0",
-  "description": "andmorefine",
-  "main": "webpack.config.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "webpack-dev-server --content-base src --mode development --inline",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andmorefine/react-next.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/andmorefine/react-next/issues"
-  },
-  "homepage": "https://github.com/andmorefine/react-next#readme",
-  "devDependencies": {
-    "@babel/core": "^7.7.7",
-    "@babel/plugin-proposal-class-properties": "^7.7.4",
-    "@babel/preset-env": "^7.7.7",
-    "@babel/preset-react": "^7.7.4",
-    "babel-loader": "^8.0.6",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "webpack": "^4.41.4",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1"
+  "dependencies": {
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   }
 }
